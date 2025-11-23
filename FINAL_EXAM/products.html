@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Clover – Products</title>
+
+    <link rel="stylesheet" href="rsc/css/bootstrap.min.css">
+    <script src="rsc/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body { background-color: #f5f5f5; }
+        .prod-card img { height: 220px; object-fit: cover; border-radius: 8px; }
+        .prod-card { border: 2px solid #333; border-radius: 10px; height: 100%; display: flex; flex-direction: column; justify-content: space-between; background-color: white; }
+        .card-body { padding: 10px; }
+    </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">Black Clover MovieFlix</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav3">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav3">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html#cinemas">Cinema</a></li>
+                <li class="nav-item"><a class="nav-link" href="characters.html">Characters</a></li>
+                <li class="nav-item"><a class="nav-link active" href="products.html">Products</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<section class="container py-5">
+    <h1 class="fw-bold mb-4">Official Black Clover Merchandise</h1>
+
+    <div class="row g-4" id="products-row">
+
+        
+        <div class="col-md-3 d-flex">
+            <div class="card prod-card p-2">
+                <img src="src/asta figure.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Asta Figure</h5>
+                    <p class="card-text">Official merchandise from the Black Clover Movie.</p>
+                    <button class="btn btn-dark w-100" onclick="addToCart('Asta Figure')">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-3 d-flex">
+            <div class="card prod-card p-2">
+                <img src="src/yuno figure.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Yuno Figure</h5>
+                    <p class="card-text">Official merchandise from the Black Clover Movie.</p>
+                    <button class="btn btn-dark w-100" onclick="addToCart('Yuno Figure')">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-3 d-flex">
+            <div class="card prod-card p-2">
+                <img src="src/noelle figure.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Noelle Figure</h5>
+                    <p class="card-text">Official merchandise from the Black Clover Movie.</p>
+                    <button class="btn btn-dark w-100" onclick="addToCart('Noelle Figure')">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-3 d-flex">
+            <div class="card prod-card p-2">
+                <img src="src/yami sword keychain.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Yami Sword Keychain</h5>
+                    <p class="card-text">Official merchandise from the Black Clover Movie.</p>
+                    <button class="btn btn-dark w-100" onclick="addToCart('Yami Sword Keychain')">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-3 d-flex">
+            <div class="card prod-card p-2">
+                <img src="src/grimoirebook.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Grimoire Notebook</h5>
+                    <p class="card-text">Official merchandise from the Black Clover Movie.</p>
+                    <button class="btn btn-dark w-100" onclick="addToCart('Grimoire Notebook')">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-3 d-flex">
+            <div class="card prod-card p-2">
+                <img src="src/blackbulls shirt.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Black Bulls Shirt</h5>
+                    <p class="card-text">Official merchandise from the Black Clover Movie.</p>
+                    <button class="btn btn-dark w-100" onclick="addToCart('Black Bulls Shirt')">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-3 d-flex">
+            <div class="card prod-card p-2">
+                <img src="src/goldendawn.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Golden Dawn Shirt</h5>
+                    <p class="card-text">Official merchandise from the Black Clover Movie.</p>
+                    <button class="btn btn-dark w-100" onclick="addToCart('Golden Dawn Shirt')">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="col-md-3 d-flex">
+            <div class="card prod-card p-2">
+                <img src="src/asta demon form poster.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Asta Demon Form Poster</h5>
+                    <p class="card-text">Official merchandise from the Black Clover Movie.</p>
+                    <button class="btn btn-dark w-100" onclick="addToCart('Asta Demon Form Poster')">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-3 d-flex">
+            <div class="card prod-card p-2">
+                <img src="src/blackclover mug.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Black Clover Mug</h5>
+                    <p class="card-text">Official merchandise from the Black Clover Movie.</p>
+                    <button class="btn btn-dark w-100" onclick="addToCart('Black Clover Mug')">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-3 d-flex">
+            <div class="card prod-card p-2">
+                <img src="src/conrad leto figure.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Conrad Leto Figure</h5>
+                    <p class="card-text">Official merchandise from the Black Clover Movie.</p>
+                    <button class="btn btn-dark w-100" onclick="addToCart('Conrad Leto Figure')">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-3 d-flex">
+            <div class="card prod-card p-2">
+                <img src="src/wizard king cloak.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Wizard King Cloak</h5>
+                    <p class="card-text">Official merchandise from the Black Clover Movie.</p>
+                    <button class="btn btn-dark w-100" onclick="addToCart('Wizard King Cloak')">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="col-md-3 d-flex">
+            <div class="card prod-card p-2">
+                <img src="src/blackbulls hoodie.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Black Bulls Hoodie</h5>
+                    <p class="card-text">Official merchandise from the Black Clover Movie.</p>
+                    <button class="btn btn-dark w-100" onclick="addToCart('Black Bulls Hoodie')">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script>
+    function addToCart(item) {
+        alert(item + " added to cart!");
+    }
+</script>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-light py-4 mt-5">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4">
+                <h5 class="fw-bold">Black Clover MovieFlix</h5>
+            </div>
+
+            <div class="col-md-4">
+                <h5 class="fw-bold">Developed By</h5>
+                <p>Lee Alfie Sagara <br>
+                    Lester Javillonar<br>
+                    Avril Galimba<br>
+                    Beatrice Dejarisco<br>
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <h5 class="fw-bold">Menu</h5>
+                <a href="index.html" class="text-light d-block">Feature</a>
+                <a href="characters.html" class="text-light d-block">Characters</a>
+                <a href="products.html" class="text-light d-block">Products</a>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
